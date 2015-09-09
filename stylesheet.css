@@ -11,9 +11,8 @@ header {
 }
 
 header img {
-	width: 60%;
-	min-width: 700px;
-	max-width: 700px;
+	min-width: 600px;
+	max-width: 600px;
 }
 
 nav {
@@ -33,6 +32,8 @@ nav ul li a {
 	color: #585858;
 	font-family: 'News Cycle', sans-serif;
 	font-size: 1em;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
 }
 
 nav ul li a:hover {
@@ -40,6 +41,8 @@ nav ul li a:hover {
 	color: black;
 	font-family: 'News Cycle', sans-serif;
 	font-size: 1em;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
 }
 
 .container-portfolio {
@@ -54,10 +57,14 @@ nav ul li a:hover {
 	position: relative;
 	display: inline-block;
 	margin: 10px auto 0;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
 }
 
 .container-portfolio a img:hover {
 	opacity: .87;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
 }
 
 .bottom-footer {
@@ -129,4 +136,58 @@ footer h6 {
 	font-size: .8em;
 	color: #585858;
 	margin-left: 10%;
+}
+
+#headerPieza {
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* CSS Everything But Advertising */
+
+#descripcion {
+	font-family: 'News Cycle', sans-serif;
+	font-size: .8em;
+	color: #585858;
+	width: 500px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#descripcion h4 {
+
+}
+
+#thisIsMe {
+	margin-left: 70px;
+	max-width: 350px;
+}
+
+#divPiezas {
+	width: 70%;
+	height: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #B6B6B6;
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+
+/* Chosen THUMBNAIL */
+
+#activeThumbnail {
+	width: 200px;
+	opacity: .8;
+	position: relative;
+	display: inline-block;
+	margin: 5px auto 0;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	border-width: -2px;
+	border-color: #00FFFF;
+	border-style: solid;
 }
