@@ -10,6 +10,10 @@ header {
 	text-align: center;
 }
 
+a {
+	color: #585858;
+}
+
 header img {
 	min-width: 600px;
 	max-width: 600px;
