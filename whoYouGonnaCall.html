@@ -90,6 +90,19 @@
   ga('create', 'UA-67387122-1', 'auto');
   ga('send', 'pageview');
 
+  // <![CDATA[
+        (function(mt) {
+            var mtscript = document.createElement('script');
+            mtscript.type = 'text/javascript';
+            mtscript.async = true;
+            mtscript.src = ('https:' == document.location.protocol ? 'https://' : 'http://') +
+                            'analytics.monkeytracker.cz/resource/' +
+                            'f0a528fed6133d39eb2ae16b0c738cef' +
+                            '/monkeytracker.min.js';
+            var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mtscript, s);
+            })(window.MonkeyTracker = window.MonkeyTracker || {});
+        // ]]>
+
 </script>
 
 	</body>
