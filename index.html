@@ -41,7 +41,7 @@
 		
 
 		<div class="container-portfolio">
-			<a href="uiux/corpfolder.html"><img src="img/thumbnails/corpfolder.jpg" alt="Corpfolder" width="200px"></a>
+			<a href="uiux/corpfolder.html" onclick ="callCustomTraking()"><img src="img/thumbnails/corpfolder.jpg" alt="Corpfolder" width="200px"></a>
 			<a href="uiux/pate.html"><img src="img/thumbnails/pate.jpg" alt="Pate Flores" width="200px"></a>
 			<a href="uiux/macadamia.html"><img src="img/thumbnails/macadamia.jpg" alt="Macadamia Flores" width="200px"></a>
 			<a href="uiux/emailing.html"><img src="img/thumbnails/mailings.jpg" alt="Mailings" width="200px"></a>
@@ -66,7 +66,7 @@
 	  ga('create', 'UA-67387122-1', 'auto');
 	  ga('send', 'pageview');
 
-	  // <![CDATA[
+	  	// <![CDATA[
         (function(mt) {
             var mtscript = document.createElement('script');
             mtscript.type = 'text/javascript';
@@ -78,6 +78,16 @@
             var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mtscript, s);
             })(window.MonkeyTracker = window.MonkeyTracker || {});
         // ]]>
+
+    	// 	Event for all onClick
+		function callCustomTraking(){
+		 ga('send', 'event', {
+		    eventCategory: 'Portfolio',
+		    eventAction: 'click',
+		    eventLabel: 'CF - card'
+		  });
+		}
+		
 
 	</script>
 
