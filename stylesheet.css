@@ -211,4 +211,9 @@ footer h6 {
 	border-style: solid;
 }
 
+.piezaEnveloped {
+	border-width: 2px;
+	border-color: #d3d3d3;
+}
+
 
