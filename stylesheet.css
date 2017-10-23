@@ -166,18 +166,40 @@ footer h6 {
 
 #descripcion {
 	font-family: 'News Cycle', sans-serif;
-	font-size: .7em;
+	font-size: 1em;
 	color: #585858;
-	max-width: 500px;
+	max-width: 600px;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	line-height: 1.4em;
+	line-height: 1.6em;
 }
 
 #descripcion h4 {
+	font-size: 1.5em;
+	line-height: 1.6em;
+	color: #111;
 
+}
+
+.descripcion_scrolly  {
+	font-size: .8em;
+	line-height: 1em;
+	color: #4B4977;
+	font-weight: bold;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.flechita {
+	min-width: 5px;
+	width: 8px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 3px;
 }
 
 #thisIsMe {
