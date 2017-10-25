@@ -218,6 +218,11 @@ footer h6 {
 	margin-bottom: 45px;
 }
 
+.divider-invisible {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 /* Chosen THUMBNAIL */
 
 #activeThumbnail {
