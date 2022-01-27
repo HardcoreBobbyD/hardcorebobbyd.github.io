@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 header {
@@ -165,8 +166,9 @@ footer h6 {
 /* CSS Everything But Advertising */
 
 #descripcion {
-	font-family: 'News Cycle', sans-serif;
-	font-size: 1em;
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	font-size: .95em;
 	color: #585858;
 	max-width: 600px;
 	margin-top: 30px;
@@ -177,10 +179,65 @@ footer h6 {
 }
 
 #descripcion h4 {
-	font-size: 1.5em;
+	font-size: 1.8em;
 	line-height: 1.6em;
 	color: #111;
+	font-weight: 700;
 
+}
+
+.quote {
+	font-size: 1.4em;
+	line-height: 1.6em;
+	color: #111;
+	font-weight: 400;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	text-decoration: underline orange;
+
+}
+
+.quote i {
+	background-color: orange;
+}
+
+ol li {
+	margin-left: 2em;
+}
+
+ol dd {
+	margin-left: 3em;
+}
+
+
+
+/*-- Table start --*/
+.row {
+	display: inline-block;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 65%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+/*-- Table end --*/
+
+
+hr.dashed {
+  border-top: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 45px;
 }
 
 .descripcion_scrolly  {
@@ -191,7 +248,6 @@ footer h6 {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 .flechita {
