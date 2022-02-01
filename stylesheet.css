@@ -122,6 +122,11 @@ p i {
 
 img {
 	/*min-width: 200px;*/
+	-webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 
 .container-portfolio a img:hover {
