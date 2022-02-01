@@ -72,7 +72,7 @@ nav ul li a:hover {
 h1 {
 	font-family: 'Inter', sans-serif;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 44px;
 	color: white;
 }
 
@@ -121,7 +121,7 @@ p i {
 }
 
 img {
-	min-width: 200px;
+	/*min-width: 200px;*/
 }
 
 .container-portfolio a img:hover {
@@ -223,7 +223,6 @@ footer h6 {
 	color: #585858;
 	/*max-width: 600px;*/
 	padding-top: 80px;
-	padding-bottom: 128px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -241,8 +240,7 @@ footer h6 {
 	font-size: 20px;
 	text-align: center;
 	line-height: 32px;
-	padding-bottom: 64px;
-	color: #848484;
+	color: #fff;
 }
 
 #descripcion h4 {
@@ -306,9 +304,12 @@ ol dd {
 }
 
 .hero-pieza1 {
-	background-image: linear-gradient(225deg, #3081D0 0%, #482F9B 100%);
+  min-height: 900px;
+  background-image: url(img/product/bg-hero-case.jpg);
+  background-size: cover;
+	/*background-image: linear-gradient(225deg, #3081D0 0%, #482F9B 100%);*/
 	padding-top: 20%;
-	padding-bottom: 20%;
+	padding-bottom: 10%;
 	width: 100%;
 	text-align: center;
 }

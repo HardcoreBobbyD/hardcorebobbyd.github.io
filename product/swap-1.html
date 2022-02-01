@@ -38,17 +38,15 @@
         <ul>
           <li><a href="../meInWords.html">Résumé</a></li>
           <li><a href="../whoYouGonnaCall.html">Reach Me</a></li>
-          <li><a href="http://bling4all.tumblr.com" target="_blank">Blog</a></li>
-          <li><a href="https://medium.com/@hardcorebobbyd" target="_blank">Medium</a></li>
+          <!--<li><a href="http://bling4all.tumblr.com" target="_blank">Blog</a></li>
+          <li><a href="https://medium.com/@hardcorebobbyd" target="_blank">Medium</a></li>-->
         </ul>
       </nav>
     </header>
 
     <div class="hero-pieza1">
-      <h1>From compliance<br>to feature.</h1>
-    </div>
-
-    <div class="div1" id="descripcion">
+      <h1>FROM HAVE TO,<br>TO WANT TO.</h1>
+      <div class="" id="descripcion">
       <div id="descripcion-content">
           <div id="descripcion-intro">
             <p>Swap had to meet certain needs in the payment process to be regulated by the CNBV (the institution who issued the licenses to all the mexican fintechs), many of them related with the payment process. These needs were mandatory (but kept certain room for interpretation, and therefore, to do some magic).</p><br>
@@ -57,7 +55,12 @@
 
             <p>The compliance was related with several changes in the payments flow and, therefore, this was the opportunity to review the process in order to improve it.</p><br>
           </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="div1" id="descripcion">
+      <div id="descripcion-content">
           <table style="width:400px; text-align: left;">
             <tr>
               <th>MY ROLE</th>
@@ -102,13 +105,13 @@
 
         <p>The main reason of these improvement was to become a differentiator with the most used feature.</p><br>
 
-        <div class="quote">— <i>95%</i> of the user interactions with the app were related with payments, directly or indireclty. —</div><br>
+        <div class="quote">— <i>95%</i> of the user interactions with Swap were related with payments, directly or indireclty. —</div><br>
 
-        <p>We expected the user to be quite comfort with the payment process and become the number one alternative vs. other major banks (yes, the once mentioned before in the benchmark). </p><br>
+        <p>We expected the user to be quite comfortable with the payment process and become the number one alternative vs. other major banks <i>(yes, the ones mentioned before in the benchmark).</i></p><br>
 
-        <p>But wait: how are we going to become the number one payment possibility if the users had plenty other banks? Well, that was easy taking advantage of one of the mains features of Swap: being a wallet.</p><br>
-
-        <p>This (being a wallet) means people can “add” credit and debit cards from any mexican bank to their account and do payments straight from them.</p></p>
+        <p>But wait: how are we going to become the number one payment possibility if the users had plenty other banks? Well, that was easy taking advantage of one of the mains features of Swap: being a wallet.</p>
+        <!--<br>
+        <p>This <i>(being a wallet)</i> means people can “add” credit and debit cards from any mexican bank to their account and do payments straight from them.</p></p> -->
       </div>
     </div>
     
@@ -138,11 +141,11 @@
 
         <b>Discoveries:</b><br>
           <ol>
-            <li> A good quantity of users, especially heavy users, where broadly limited with transactions because Swap had defined ‘levels’ which limited the payments amount of each user.</li>
+            <li>Swap implements 'levels' to limit payments to prevent frauds.</li>
             <li>This issue was related with another one: frauds.</li>
               <dd>- Hiring a 3rd party API to manage the payments acceptance rate.</dd>
-            <li> Banks where implementing a system to only use digital cards for digital transactions. This was a problem because digital cards often use a dynamic CVV. And the nature of the CVV, when Swap was developed, was to be a permanent number.</li>
-            <li>Users tend to repeat several payments, either with the same amount of money or change it, but quite often they pay to the same people.</li>
+            <li>Banks use only digital cards that have a dynamic CVV system, unlike SWAP, which uses static CVV system.</li>
+            <li>Users usually repeat the payments to the same person.</li>
           </ol>
         </div>
     </div>
@@ -161,18 +164,18 @@
             </tr>
             <tr>
               <td>1. Successful Payments</td>
-              <td># drop outs</td>
+              <td>Number of drop outs</td>
             </tr>
             <tr>
-              <td>2. Less failed payments</td>
-              <td># failed payments</td>
+              <td>2. Failed payments</td>
+              <td>Number of failed payments</td>
             </tr>
             <tr>
-              <td>3. Less support contact regarding payments</td>
-              <td>#payments hashtag</td>
+              <td>3. Support contact regarding payments issues</td>
+              <td>Less payments topics</td>
             </tr>
             <tr>
-              <td>4. Saved contacts vs. new transactions (from zero)</td>
+              <td>4. Saved payment receiver vs. new transactions (from scratch)</td>
               <td>TXs comparision</td>
             </tr>
             <tr>
@@ -185,11 +188,11 @@
           <div class="quote">— At this moment, around 5% of monthly transactions failed. This failures were <i>the main reason for a user to stop using Swap. —</i></div>
           <br><br>
 
-        The main reasons payments failed where:<br>
+        <p>The main reasons payments failed were:</p>
         <ol>
-          <li>SPEI failure: there are random dead times where their service stops working and delays for minutes or even hours the transactions.</li>
-          <li>The user topped their monthly transactional limits (defined by the type of user they were).</li>
-          <li>The origin of the funds (credit or debit card) were rejected by their banks (mostly because of not using a digital card for a digital transaction).</li>
+          <li>SPEI failure: Random dead times causing delays in transactions.</li>
+          <li>Transaction limit reach <i>(defined by the level of the user)</i>.</li>
+          <li>The origin of the funds <i>(credit or debit card)</i> were rejected by their banks <i>(mostly because of not using a digital card for a digital transaction)</i>.</li>
         </ol>
       </div>
     </div>
@@ -204,7 +207,7 @@
         <div class="quote">— Create the <i>fastest and easiest payment</i> of them all. —</i></div>
         <br>
 
-        <p>We where going to get it with the next solutions:</p>
+        <p>This is how:</p>
 
         <ol>
           <li>Whenever a user entered Swap we announced a possible delay because of one of our providers (SPEI), not only blaming them but making clear what where going to happen with their payments, assuming the responsibility.</li>
