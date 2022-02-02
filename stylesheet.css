@@ -218,6 +218,20 @@ footer h6 {
 	background-color: #ECF1F9;
 }
 
+#cast-screens {
+	min-width: 1000px;
+	margin-left: -100px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+#cast-screens img {
+	border-radius: 25px;
+	margin-right: 20px;
+	width: 250px;
+	vertical-align: top;
+}
+
 
 /* CSS Everything But Advertising */
 
