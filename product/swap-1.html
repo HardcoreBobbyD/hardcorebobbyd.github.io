@@ -36,8 +36,8 @@
       
       <nav>
         <ul>
-          <li><a href="../meInWords.html">Résumé</a></li>
-          <li><a href="../whoYouGonnaCall.html">Reach Me</a></li>
+          <li><a href="Resume Bobby Diamond (UI-UX and Product Designer).pdf" download="Some love from Bobby Diamond">Résumé</a></li>
+          <li><a href="mailto:hardcorebobbyd@me.com?subject=I will have a double espresso with you! ☕️">Reach Me</a></li>
           <!--<li><a href="http://bling4all.tumblr.com" target="_blank">Blog</a></li>
           <li><a href="https://medium.com/@hardcorebobbyd" target="_blank">Medium</a></li>-->
         </ul>
@@ -49,11 +49,9 @@
       <div class="" id="descripcion">
       <div id="descripcion-content">
           <div id="descripcion-intro">
-            <p>Swap had to meet certain needs in the payment process to be regulated by the CNBV (the institution who issued the licenses to all the mexican fintechs), many of them related with the payment process. These needs were mandatory (but kept certain room for interpretation, and therefore, to do some magic).</p><br>
+            <p>Swap had to meet certain tasks in order to be regulated by the CNBV (the institution who issued the licenses to all the mexican fintechs), many of them related with the payment process. These needs were mandatory (but kept certain room for interpretation, and therefore, to do some magic 🪄).</p><br>
           
             <p>This is how a simple task list had the opportunity to become something more interesting for the business and the users.</p><br>
-
-            <p>The compliance was related with several changes in the payments flow and, therefore, this was the opportunity to review the process in order to improve it.</p><br>
           </div>
         </div>
       </div>
@@ -78,21 +76,30 @@
 
         <h4 style="padding-top: 128px;">Background</h4>
 
-        <p><b>SPEI:</b> the engine that processes all the interbank payments in Mexico, the only and almighty one.</p><br>
+        <p><b>SPEI:</b> the engine that processes all the wire transfers in Mexico, the only and almighty one.</p><br>
 
         <p>Since the beginning of times using SPEI to do payments between different banks has been an awful experience, some hard numbers that showed up in the benchmark:</p><br>
 
-        <p><b>AVERAGE INDUSTRY TIME:</b> (benchmark done with 8 mexican banks): +1 minute</p><br>
+        <p><b>TIME IT TOOK TO DO A SINGLE PAYMENT</b><i> (less is better)</i></p>
+        <br>
+        <img src="../img/product/graph-1.png">
+
+        <!--<p><b>AVERAGE INDUSTRY TIME:</b> (benchmark done with 8 mexican banks): +1 minute</p><br>
 
         <p><b>WORST TIME</b></p>
         <p><b>Banorte</b> (+30 minutes! Mainly because of the “need” to register the bank account. All the other banks got rid, somehow, of this “feature” at least one year ago.</p><br>
 
         <p><b>BEST TIME:</b></p>
         <p><b>BBVA</b> -+ 1 minute</p>
-        <i>(The main issue was copying manually de CLABE number between apps because, at least in iOS, there wasn’t a way to copy/pasting it, incredible right? It was an input without the basic attributes of an input. Like when an input to write down 6 numbers appears but the keyboard popping up is a regular QWERTY one instead a number pad.)</i><br><br>
+        <i>(The main issue was copying manually de CLABE number between apps because, at least in iOS, there wasn’t a way to copy/pasting it, incredible right? It was an input without the basic attributes of an input. Like when an input to write down 6 numbers appears but the keyboard popping up is a regular QWERTY one instead a number pad.)</i><br><br> -->
 
-
-        <p>This benchmark was done somewhere half of 2019, hopefully all of these issues had been addressed properly.</p></p>
+        <p><i>1) BANORTE: Mainly because of the “need” to register the bank account (a process which took 30 minutes to update). All the other banks got rid, somehow, of this “feature” at least one year ago.</i></p>
+        <br>
+        <p><i>2) BBVA: The main issue was copying manually de CLABE number between apps because, at least in iOS, there wasn’t a way to copy/pasting it, incredible right? It was an input without the basic attributes of an input. Like when an input to write down 6 numbers appears but the keyboard popping up is a regular QWERTY one instead a number pad.</i></p>
+        <br>
+        <p><i>This benchmark was done somewhere half of 2019, hopefully the average time had changed.</i></p>
+        <br>
+        <br>
       </div>
     </div>
   
@@ -226,6 +233,9 @@
       <div id="descripcion-content">
         <h4>The Payment Redesign</h4>
         <p>The original user journey for a payment was:</p>
+        <img src="../img/product/journey-payment-1.png">
+       
+        <!--
         <ol>
           <li>Open app.</li>
           <li>Tap New transaction CTA.</li>
@@ -238,10 +248,11 @@
           <li>TXs confirmation.</li>
           <li>Receipt review (for payment status pruposes).</li>
         </ol>
+        -->
 
         <br>
-        <p><i>– There weren’t a way to create frequent contacts (although it was the 2nd more frequent transaction type, only behind new transaction).</i></p>
-
+        <p><i>*There wasn't a way to create frequent contacts (although it was the 2nd more frequent transaction type, only behind new transaction).</i></p>
+        <br>
         <br>
         <p>The proposed journey merged both worlds: new transaction and new frequent contact.</p>
         <br>
@@ -250,7 +261,8 @@
 
         <br>
         <p>The journey evolved to:</p>
-        <ol>
+        <img src="../img/product/journey-payment-2.png">
+        <!--<ol>
           <li>Open app.</li>
           <li>Prompt right in the dashboard. The app recognized the text in the clipboard (either if it was a card number or a CLABE number). So the user were 1 tap from starting a payment.</li>
           <li>Choose amount to send.</li>
@@ -258,12 +270,14 @@
           <li>Choose origin of money (if default origin is OK skip this step).</li>
           <li>TXs confirmation.</li>
           <li>Receipt review.</li>
-        </ol>
+        </ol>-->
 
         <br>
         <p><b>Results:</b></p>
-        <p>The total number of steps decreased by 30% but time, the real metric here, were reduced by 60%.</p>
+        <p>The total number of steps decreased by 40% but time, the real metric here, were reduced by 45%.</p>
         <br>
+        <img src="../img/product/graph-2.png">
+        <img src="../img/product/graph-3.png">
 
         <p>These were all the improvements the team worked on:</p>
       </div>
