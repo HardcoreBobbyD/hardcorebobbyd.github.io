@@ -20,7 +20,6 @@ body {
 	/*max-width: 940px;*/
 	margin-left: auto;
 	margin-right: auto;
-	background-color: black;
 }
 
 header img {
@@ -72,7 +71,7 @@ nav ul li a:hover {
 h1 {
 	font-family: 'Inter', sans-serif;
 	font-weight: 700;
-	font-size: 44px;
+	font-size: 42px;
 	color: white;
 }
 
@@ -214,10 +213,6 @@ footer h6 {
 	display: block;
 }
 
-.div1 {
-	background-color: #ECF1F9;
-}
-
 #cast-screens {
 	min-width: 1000px;
 	margin-left: -100px;
@@ -235,31 +230,89 @@ footer h6 {
 
 /* CSS Everything But Advertising */
 
+#descrip {
+
+}
+
+#descrip-content {
+	max-width: 686px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 128px;
+}
+
+#descrip-content-intro {
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #848484;
+	line-height: 32px;
+}
+
+#descrip-content-list {	
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #222;
+	line-height: 32px;
+}
+
+#descrip-content-list table {
+	margin-top: 96px;
+	margin-bottom: 107px;
+}
+
+#descrip-content-list th {
+	text-transform: uppercase;
+	text-align: left;
+	min-width: 221px;
+	letter-spacing: 3px;
+}
+
+#descrip-content-list td {
+	line-height: 23px;
+}
+
+.div1 {
+	background-color: #ECF1F9;
+}
+
 #descripcion {
 	font-family: 'Inter', sans-serif;
 	font-weight: 300;
 	font-size: .95em;
 	color: #585858;
 	/*max-width: 600px;*/
-	padding-top: 80px;
+	padding-top: 128px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	line-height: 1.6em;
 }
 
-#descripcion-content{
-	max-width: 685px;
+#descripcion-content {
+	max-width: 1040px;
 	align-content: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#descripcion-intro{
+#descripcion-content h1 {
+	line-height: 39px;
+}
+
+
+#descripcion-intro {
 	font-size: 20px;
 	text-align: center;
 	line-height: 32px;
 	color: #fff;
+}
+
+#descripcion h1 {
+	color: #222;
+	font-size: 32px;
 }
 
 #descripcion h4 {
@@ -322,23 +375,69 @@ ol dd {
 	margin-bottom: 20%;
 }
 
+#hero-title {
+	max-width: 1040px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 304px;
+}
+
+#hero-title p {
+	text-transform: uppercase;
+	color: white;
+	opacity: 0.5;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+
 .hero-pieza1 {
-  min-height: 900px;
   background-image: url(img/product/bg-hero-case.jpg);
   background-size: cover;
 	/*background-image: linear-gradient(225deg, #3081D0 0%, #482F9B 100%);*/
 	padding-top: 20%;
-	padding-bottom: 10%;
+	padding-bottom: 1px;
 	width: 100%;
-	text-align: center;
 }
 
+#subhero {
+	background-image: url(img/product/02-subheroes/sub-hero-case1@1x.jpg);
+	background-color: #F9FAFB;
+  background-size: cover;
+	height: 700px;
+	width: 100%;
+	vertical-align: middle;
+}
+
+#hero-screens-show {
+  background-image: linear-gradient(225deg, #3081D0 0%, #482F9B 100%);
+  background-size: cover;
+	padding-top: 128px;
+	padding-bottom: 1px;
+	width: 100%;
+}
+
+#hero-screens-show img {
+	margin-top: 42px;
+	margin-bottom: 28px;
+}
 
 
 
 /*-- Table start --*/
 .row {
 	display: inline-block;
+	width: 100%;
+}
+
+.row p {
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #454545;
+	line-height: 28px;
 }
 
 .column {
@@ -346,26 +445,135 @@ ol dd {
   width: 50%;
 }
 
+
 .column img{
-	border-radius: 10px;
+	/*--border-radius: 10px;
 	padding: 3px;
 	display:block;
 	width: 100%;
 	border-width: 1px;
 	border-color: #ECECEC;
-	box-shadow: 0 12px 34px 0 rgb(0 0 0 / 5%);
+	box-shadow: 0 12px 34px 0 rgb(0 0 0 / 5%);--*/
 }
 
 .left {
-  width: 35%;
+  width: 30%;
 }
 
 .right {
-  width: 65%;
+  width: 70%;
   padding-left: 20px;
-  padding-top: 20px;
+  /*--padding-top: 20px;--*/
+}
+
+.left-50 {
+  width: 50%;
+}
+
+.right-50 {
+  width: 50%;
 }
 /*-- Table end --*/
+
+
+
+/*-- INICIO ELEMENTOS DE UI --*/
+
+#exp-ui {
+	background-color: #F3F5F7;
+	width: 100%;
+	height: 463px;
+	border-color: #ECECEC;
+	border-width: 4px;
+	border-style: solid;
+	border-radius: 40px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#exp-ui img {
+	justify-content: center;
+}
+
+#metric-square {
+	background-color: #F3F5F7;
+	width: 160px;
+	height: 150px;
+	border-color: #ECECEC;
+	border-width: 4px;
+	border-style: solid;
+	border-radius: 40px;
+	display: inline-block;
+  text-align: center;
+  padding-top: 42px;
+}
+
+#metric-square p {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #949494;
+}
+
+#metric-square h3 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: #222;	
+}
+
+#thumbs-container {
+
+}
+
+#metric-thumnails {
+	width: 50px;
+	margin-bottom: 42px;
+	display: inline-block;
+	margin-right: 34px;
+	vertical-align: top;
+}
+
+#metric-thumnails img {
+	margin-bottom: 16px;
+}
+
+#metric-thumnails p {
+	text-align: left;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	color: #454545;
+}
+
+#thumnail-50-50 {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	margin-bottom: 16px;
+}
+
+#metric-container {
+	margin-left: 24px;
+	margin-bottom: 64px;
+}
+
+#metric-value {
+	margin-top: 16px;
+	margin-right: 32px;
+	display: inline-block;
+} 
+
+#metric-value h3 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: #222;	
+} 
+
+
+/*-- FINAL ELEMENTOS DE UI --*/
+
 
 
 hr.dashed {
@@ -397,6 +605,10 @@ hr.dashed {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 500px;
+}
+
+#content-divider {
+margin-top: 128px;
 }
 
 #divPiezas {
