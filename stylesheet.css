@@ -52,7 +52,7 @@ nav {
 
 #navbar a {
 	margin-left: 0px;
-	margin-right: 64px;
+	
 }
 
 nav a {
@@ -80,6 +80,18 @@ nav a:hover {
 
 #nav-title:visited {
 	text-decoration: none;
+}
+
+#nav-left {
+	float: left;
+}
+
+#nav-right {
+	float: right;
+}
+
+#nav-right a {
+	margin-left: 64px;
 }
 
 h1 {
