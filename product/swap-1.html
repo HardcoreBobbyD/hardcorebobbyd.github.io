@@ -218,14 +218,26 @@
 
               <p>Next step was doing some field tests with heavy Swap users to obtain ‘real world’ insights.</p><br><br>
 
-              <b>Discoveries:</b><br>
-                <ol>
-                  <li>Swap implements 'levels' to limit payments to prevent frauds.</li>
-                  <li>This issue was related with another one: frauds.</li>
-                    <dd>- Hiring a 3rd party API to manage the payments acceptance rate.</dd>
-                  <li>Banks use only digital cards that have a dynamic CVV system, unlike SWAP, which uses static CVV system.</li>
-                  <li>Users usually repeat the payments to the same person.</li>
-                </ol>
+              <b>Discoveries:</b>
+              <br>
+                <div id="discoveries-1">
+                  <div id="discovery-card">
+                    <h1>🕹</h1>
+                    <p>Swap implements 'levels' to limit payments to prevent frauds.</p>
+                  </div>
+                  <div id="discovery-card">
+                    <h1>⚙</h1>
+                    <p>Hiring a 3rd party API to manage the payments acceptance rate.
+                  </div>
+                  <div id="discovery-card">
+                    <h1>🎛</h1>
+                    <p>Swap implements 'levels' to limit payments to prevent frauds.</p>
+                  </div>
+                  <div id="discovery-card">
+                    <h1>💸</h1>
+                    <p>Users usually repeat the payments to the same person.</p>
+                  </div>
+                </div>
             </div>
           </div>
       </div>
@@ -343,6 +355,10 @@
 
 
     </div>
+
+
+
+    <!-- Improvement 01 - START -->
 
     <div id="hero-screens-show">
       <div id="descripcion-content">
@@ -497,7 +513,165 @@
 
         </div>
     </div>
+  </div>
+
+
+
+  <!-- Improvement 02 - START --
+
+  <div id="hero-screens-show">
+      <div id="descripcion-content">
+        <h1>02. Instant Re-Send
+        <img src="../img/product/03-subscreens/instantly-for-the-frequent.png">
+      </div>
     </div>
+
+    <div id="descripcion-content" style="margin-top: 80px;">
+      <div class="row" style="margin-bottom: 128px;">
+        <div class="column left-50">
+          <div id="exp-ui">
+            <img src="../img/product/screenshots-ejemplo/ui-frequent-1.png">
+          </div>
+        </div>
+        <div class="column right-50" style="padding-left: 24px;">
+          <p style="margin-top: 32px; margin-bottom: 42px;">Send money to <b>anyone</b> with only 1 tap!</p>
+            <div id="thumbs-container">
+              <div id="metric-thumnails">
+                <img src="../img/product/thumbs/thumb-1.png">
+                <p>Swap Users</p>
+              </div>
+              <div id="metric-thumnails">
+                <img src="../img/product/thumbs/card-thumb.png">
+                <p>Cards</p>
+              </div>
+              <div id="metric-thumnails">
+                <img src="../img/product/thumbs/wire-thumb.png">
+                <p>Wire Transfer</p>
+              </div>
+              <div id="metric-thumnails">
+                <img src="../img/product/thumbs/wire-thumb.png">
+                <p>Email or telephone</p>
+              </div>
+            </div>
+
+          <div id="metric-square">
+            <p>Time <b>reduced</b> by</p>
+            <h3>60%</h3>
+          </div>
+          <div id="metric-square">
+            <p>Steps <b>reduced</b> by</p>
+            <h3>60%</h3>
+          </div>
+          <div id="metric-square">
+            <h3>1 of 7</h3>
+            <p>Recurrent</p>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="descripcion-content" style="margin-top: 80px;">
+      <div class="row" style="margin-bottom: 128px;">
+        <div class="column left-50">
+          <p><b>What is it?</b></p>
+          <p>Top recurrent payments as a shortcut in the main dashbaord (either if they were Swap users, credit/debit cards or CLABE numbers.</p>
+          <br>
+          <p><b>Basis</b></p>
+          <p>Payments was the main action a user did (95% of interactions were payments), heavy users (the beloved ones by Swap) did frequent payments to the same user (up to 7 per month) and they had to do each of them from scratch (there was no way of saving a user nor to re do payments).</p>
+        </div>
+        <div class="column right-50" style="padding-left: 24px;">
+          <p><b>Metrics Used</b></p>
+            <div id="metric-container">
+              <p><b>01. CSAT</b> (Customer Satisfaction Score)</p>
+              <br>
+              <p>Doing recurrent payments from scratch was the main friction for a heavy user doing up to 4-7 payments to the same user per month and it affected the whole user flow.</p>
+              <div id="metric-value">
+                <p><b>BEFORE</b></p>
+                <h3>3.5</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>AFTER</b></p>
+                <h3>4.2</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>DIFFERENCE</b></p>
+                <h3 style="color:#00BB4F">+.07</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>%</b></p>
+                <h3 style="color:#00BB4F">+20%</h3>
+              </div>
+            </div>
+
+            <div id="metric-container">
+              <p style="margin-top:32px;"><b>02. User Actions per Session</b></p>
+              <br>
+              <p>Reducing them where a major KPI as the number of user journey steps decreased considerably.</p>
+              <div id="metric-value">
+                <p><b>BEFORE</b></p>
+                <h3>15</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>AFTER</b></p>
+                <h3>9.5</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>DIFFERENCE</b></p>
+                <h3 style="color:#00BB4F">-5.5</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>%</b></p>
+                <h3 style="color:#00BB4F">-36%</h3>
+              </div>
+            </div>
+
+            <div id="metric-container">
+              <p style="margin-top:32px;"><b>03. Session Duration</b></p>
+              <br>
+              <p>As we shortened the steps to complete the task, the total session duration would validate the time reduction.</p>
+              <div id="metric-value">
+                <p><b>BEFORE</b></p>
+                <h3 style="font-size: 25px;">2:30m</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>AFTER</b></p>
+                <h3 style="font-size: 25px;">1:28m</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>DIFFERENCE</b></p>
+                <h3 style="font-size: 25px; color:#00BB4F">-1:02m</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>%</b></p>
+                <h3 style="font-size: 25px; color:#00BB4F">-41%</h3>
+              </div>
+            </div>
+
+            <div id="metric-container">
+              <p style="margin-top:32px;"><b>04. Bounce Rate</b></p>
+              <br>
+              <p>Being a failed payment the main reason why a user stop using made this metric an essential to measure.</p>
+              <div id="metric-value">
+                <p><b>BEFORE</b></p>
+                <h3>15</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>AFTER</b></p>
+                <h3>12</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>DIFFERENCE</b></p>
+                <h3 style="color:#00BB4F">-3%</h3>
+              </div>
+              <div id="metric-value">
+                <p><b>%</b></p>
+                <h3 style="color:#00BB4F">-20%</h3>
+              </div>
+            </div>
+
+        </div>
+    </div>
+  </div>
 
       
     </div>

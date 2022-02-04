@@ -642,7 +642,37 @@ ol dd {
 }
 /*-- Table end --*/
 
+#discoveries-1 {
+	margin-top: 16px;
+}
 
+#discovery-card {
+	display: inline-block;
+	min-width: 319px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 12px 34px 0 rgb(0 0 0 / 5%);
+	margin-right: 16px;
+	margin-bottom: 16px;
+	padding-left: 24px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+#discovery-card h1 {
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 17px;
+}
+
+#discovery-card p {
+	font-size: 15px;
+	max-width: 212px;
+	margin-left: 24px;
+	margin-right: 24px;
+	display: inline-block;
+}
 
 /*-- INICIO ELEMENTOS DE UI --*/
 
