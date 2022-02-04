@@ -24,7 +24,7 @@ body {
 
 #body-home {
 	max-width: 1040px;
-	background-color: black;
+	background-color: #FAFAFA;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -106,8 +106,9 @@ h3 {
 h5 {
 	font-family: 'Inter', sans-serif;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 18px;
 	color: #9E9E9E;	
+	line-height: 33px;
 }
 
 p i {
@@ -439,6 +440,83 @@ ol dd {
 }
 
 
+#welcome {
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #454545;
+	line-height: 28px;
+}
+
+#welcome h1 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	color: #222;
+	margin-bottom: 24px;
+}
+
+#welcome h5 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #222;	
+	line-height: 33px;
+}
+
+#welcome h6 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #9E9E9E;	
+	line-height: 33px;	
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	letter-spacing: 2px;
+}
+
+
+/*-- Container 1 BEGINNING --*/
+#xlContainer-case-1 {
+	width: 100%;
+	background-image: url(img/product/01-home/01-case-wider.jpg);
+	background-size: cover;
+	height: 480px;
+	-webkit-box-shadow: 5px 5px 34px 11px rgba(0,0,0,0.18); 
+	box-shadow: 5px 5px 34px 11px rgba(0,0,0,0.18);
+	border-radius: 35px;
+}
+
+#xlContainer-case-1-content {
+	margin-left: 32px;
+	padding-top: 76px;
+}
+
+#xlContainer-case-1-content img {
+	margin-bottom: 76px;
+}
+
+#xlContainer-case-1-content h1 {
+	max-width: 230px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: #fff;
+	margin-bottom: 8px;
+}
+
+#xlContainer-case-1-content p {
+	max-width: 330px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	color: #A5BEFF;
+	line-height: 26px;
+	margin-bottom: 56px;
+}
+/*-- Container 1 END --*/
+
+
 
 /*-- Table start --*/
 .row {
@@ -446,13 +524,7 @@ ol dd {
 	width: 100%;
 }
 
-.row p {
-	font-family: 'Inter', sans-serif;
-	font-size: 18px;
-	font-weight: 300;
-	color: #454545;
-	line-height: 28px;
-}
+
 
 .column {
   float: left;
