@@ -631,6 +631,10 @@ ol dd {
 	max-width: 90%;
 }
 
+#bullet {
+	padding-left: 24px;
+}
+
 .right-50 {
   width: 50%;
 }
@@ -704,6 +708,7 @@ ol dd {
 	display: inline-block;
   text-align: center;
   padding-top: 42px;
+  min-width: 154px;
 }
 
 #metric-square p {
@@ -720,8 +725,13 @@ ol dd {
 	color: #222;	
 }
 
-#thumbs-container {
+#metric-square img {
+	max-width: 99%;
+} 
 
+#thumbs-container {
+	display: flex;
+	margin-bottom: 12px;
 }
 
 #thumbs-container p {
@@ -771,6 +781,12 @@ ol dd {
 	font-size: 32px;
 	color: #222;	
 } 
+
+#metric-descrip {
+	max-width: 317px;
+	margin-left: 24px;
+	padding-top: 31px;
+}
 
 
 /*-- FINAL ELEMENTOS DE UI --*/
