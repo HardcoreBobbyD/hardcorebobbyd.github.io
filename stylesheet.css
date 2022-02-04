@@ -94,6 +94,10 @@ nav a:hover {
 	margin-left: 64px;
 }
 
+.add-shadow {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+}
+
 h1 {
 	font-family: 'Inter', sans-serif;
 	font-weight: 700;
@@ -227,7 +231,6 @@ footer h6 {
 .row {
 	font-family: 'Inter', sans-serif;
 }
-
 
 .separator {
 	width: 80%;
@@ -573,7 +576,7 @@ ol dd {
 #xlContainer-case-1-content p {
 	max-width: 330px;
 	font-family: 'Inter', sans-serif;
-	font-weight: 400;
+	font-weight: 200;
 	font-size: 17px;
 	color: #A5BEFF;
 	line-height: 26px;
@@ -621,8 +624,21 @@ ol dd {
   width: 50%;
 }
 
+.left-50 p {
+	font-family: 'Inter', sans-serif;
+	font-weight: 200;	
+	line-height: 28px;
+	max-width: 90%;
+}
+
 .right-50 {
   width: 50%;
+}
+
+.right-50 p {
+	font-family: 'Inter', sans-serif;
+	font-weight: 200;	
+	line-height: 28px;
 }
 /*-- Table end --*/
 
