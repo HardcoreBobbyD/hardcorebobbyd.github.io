@@ -172,6 +172,10 @@ footer h6 {
 	font-weight: 400;
 }
 
+.row {
+	font-family: 'Inter', sans-serif;
+}
+
 
 .separator {
 	width: 80%;
