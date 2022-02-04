@@ -694,6 +694,10 @@ ol dd {
 
 }
 
+#thumbs-container p {
+	line-height: 22px;
+}
+
 #metric-thumnails {
 	width: 50px;
 	margin-bottom: 42px;
