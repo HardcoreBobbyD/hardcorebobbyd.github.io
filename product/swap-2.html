@@ -33,55 +33,107 @@
 	    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 	</script>
 </head>
-<body>
 
-	<header>
-      <nav style="background-color: #FAFAFA;">
-        <div id="navbar">
-          <div id="nav-left">
-            <a href="#top">💎 Bobby Diamond</a>
-          </div>
-          <div id="nav-right">
-            <a href="Resume Bobby Diamond (Product Designer and Product Manager).pdf" download="Some love from Bobby Diamond">📝  Résumé</a>
-            <a href="mailto:hardcorebobbyd@me.com?subject=I will have a double espresso with you! ☕️">🥤 Reach Me</a>
-          </div>
+<body>
+  <header>
+    <nav style="background-color: #FAFAFA;">
+      <div id="navbar">
+        <div id="nav-left">
+          <a href="../index.html">💎 Bobby Diamond</a>
         </div>
-      </nav>
+        <div id="nav-right">
+          <a href="Resume Bobby Diamond (Product Designer and Product Manager).pdf" download="Some love from Bobby Diamond">📝  Résumé</a>
+          <a href="mailto:hardcorebobbyd@me.com?subject=I will have a double espresso with you! ☕️">🥤 Reach Me</a>
+        </div>
+      </div>
+    </nav>
   </header>
 
     <div class="hero-pieza1">
-      <h1>Redefining the<br>Product Core Benefit.</h1>
+      <div id="hero-title">
+        <p>Redefining the Product Core Benefit</p>
+        <h1 style="width:868px;">Questioning the North Star to meet spectatives</h1>
+      </div>
+    </div>
+
+    <div id="descrip">
+      <div id="descrip-content">
+        <div id=descrip-content-intro>
+          <p>Swap was born before interbank payments were a thing. At this moment making a payment to another bank was a huge pain point and needed to be addressed.</p><br>
+            <p>6 years later everyone had this feature, there was the need to redefine why the users would stay with us.</p>
+        </div>
+
+        <div id="descrip-content-list">
+          <table>
+            <tr>
+              <th>My role</th>
+              <th>Platforms</th>
+            </tr>
+            <tr>
+              <td>Product Manager</td>
+              <td><img src="../img/varios/apple.svg" style="width: 20px;"><img src="../img/varios/android-logo.svg" style="width: 23px; margin-left: 16px;"></td>
+            </tr>
+            <tr>
+              <td>· User Discovery</td>
+            </tr>
+            <tr>
+              <td>· Stakeholders Input</td>
+            </tr>
+            <tr>
+              <td style="padding-bottom: 20px;">· Features Prioritization</td>
+            </tr>
+            <tr>
+              <td>Product Designer</td>
+            </tr>
+            <tr>
+              <td>· User Interviews</td>
+            </tr>
+            <tr>
+              <td>· Journey Mapping</td>
+            </tr>
+            <tr>
+              <td>· Sketching</td>
+            </tr>
+            <tr>
+              <td>· Wirefrwaming</td>
+            </tr>
+            <tr>
+              <td>· Screen Flows</td>
+            </tr>
+            <tr>
+              <td>· Visual Design</td>
+            </tr>
+            <tr>
+              <td>· Interaction Design</td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
 
     <div class="div1" id="descripcion">
       <div id="descripcion-content">
-          <div id="descripcion-intro">
-            <p>Swap was born before interbank payments were a thing. At this moment making a payment to another bank was a huge pain point and needed to be addressed.</p><br>
-            <p>6 years later everyone had this feature, there was the need to redefine why the users would stay with us.</p>
-          </div>
-
-          <table style="width:400px; text-align: left;">
-            <tr>
-              <th>MY ROLE</th>
-              <th>PLATFORMS</th>
-            </tr>
-            <tr>
-              <td>Product Manager</td>
-              <td>Android, iOS</td>
-            </tr>
-            <tr>
-              <td>Product Designer</td>
-              <td></td>
-            </tr>
-          </table>
-
-        <h4 style="padding-top: 128px;">How?</h4>
-
-        <p>Exploiting the user need of making payments to anyone and make it delightfully easy. Easier than anyone else.</p><br>
-
-        <p>With the competition arising and improving their payment capability. It was a matter of time for Swap to take decisions to stay relevant (at this point any other bank did the same as Swap.</p><br>
+        <div class="row">
+            <div class="column left">
+              <h1>How</h1>
+            </div>
+            <div class="column right">
+              <p>Exploiting the user need of making payments to anyone and make it delightfully easy. Easier than anyone else.</p>
+              <br>
+              <p>With the competition arising and improving their payment capability. It was a matter of time for Swap to take decisions to stay relevant (at this point any other bank did the same as Swap.</p><br>
+            </div>
+          </div>    
       </div>
+
+      <div id="content-divider"></div>
+
+    
     </div>
+
+
+
+    <!--
+
   
     <div class="divider-visible"></div>
 
@@ -298,6 +350,15 @@
             var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mtscript, s);
             })(window.MonkeyTracker = window.MonkeyTracker || {});
         // ]]>
+
+        window.addEventListener('scroll',(e)=>{
+        const nav = document.querySelector('nav');
+        if(window.pageYOffset > 0) {
+          nav.classList.add("add-shadow");
+        }else{
+          nav.classList.remove("add-shadow");
+        }
+      });
 
     </script>
 
