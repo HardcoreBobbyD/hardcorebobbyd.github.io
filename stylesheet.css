@@ -191,13 +191,13 @@ footer h6 {
 
 
 /*-- Media Queries - BEGINNING --*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1039px) {
 	#toy-chiquito {
 		display: none;
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1039px) {
 	#toy-chiquito {
 		max-width: 70%;
 		margin-left: auto;
@@ -223,6 +223,12 @@ footer h6 {
 
 	#toy-chiquito b {
 		color: #222;
+	}
+}
+
+@media only screen and (max-width: 1040px) {
+	.bigScreen {
+		display: none;
 	}
 }
 
