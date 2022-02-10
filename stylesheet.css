@@ -209,16 +209,16 @@ footer h6 {
 
 	#toy-chiquito h1 {
 		color: #222;
-		font-size: 62px;
-		margin-bottom: 24px;
+		font-size: 100px;
+		margin-bottom: 42px;
 		margin-top: 24px;
 	}
 
 	#toy-chiquito p {
-		font-size: 17px;
+		font-size: 16px;
 		color: #9E9E9E;
-		font-weight: 200;
-		line-height: 25px;
+		font-weight: 300;
+		line-height: 45px;
 	}
 
 	#toy-chiquito b {
