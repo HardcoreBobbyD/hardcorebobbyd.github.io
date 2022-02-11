@@ -1048,9 +1048,20 @@ margin-top: 128px;
 	margin-top: 128px;
 }
 
-.workProgress p {
+.workProgress h1 {
 	font-size: 28px;
 	font-weight: 600;
+	color: #222;
+	margin-bottom: 16px;
+}
+
+.workProgress h2 {
+	font-size: 64px;
+}
+
+.workProgress p {
+	font-size: 16px;
+	font-weight: 300;
 }
 
 .divider-workProgress {
