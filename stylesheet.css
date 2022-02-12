@@ -934,6 +934,32 @@ ol dd {
 	display: inline-block;
 }
 
+#product-card {
+	display: inline-flex;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 12px 34px 0 rgb(0 0 0 / 5%);
+	margin-right: 8px;
+	margin-bottom: 12px;
+	padding-left: 12px;
+	max-height: 69px;
+}
+
+#product-card h1 {
+	font-size: 25px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 17px;
+}
+
+#product-card p {
+	font-size: 14px;
+	margin-left: 12px;
+	margin-right: 12px;
+	padding-top: 20px;
+	display: inline-block;
+}
+
 /*-- INICIO ELEMENTOS DE UI --*/
 
 #exp-ui {
