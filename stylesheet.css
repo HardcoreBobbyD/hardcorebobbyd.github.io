@@ -379,8 +379,19 @@ footer h6 {
 	line-height: 23px;
 }
 
+#separated-table td {
+	padding-bottom: 30px;
+}
+
 .div1 {
 	background-color: #ECF1F9;
+}
+
+#page-content {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Courier New', monospace;
 }
 
 #descripcion {
@@ -907,7 +918,7 @@ ol dd {
 }
 
 #discovery-card {
-	display: inline-block;
+	display: inline-flex;
 	min-width: 319px;
 	background-color: #fff;
 	border-radius: 10px;
@@ -932,6 +943,45 @@ ol dd {
 	margin-left: 24px;
 	margin-right: 24px;
 	display: inline-block;
+}
+
+#numbered-card {
+	display: inline-block;
+	width: 319px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 12px 34px 0 rgb(0 0 0 / 5%);
+	margin-right: 16px;
+	margin-bottom: 16px;
+	padding-left: 24px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	vertical-align: top;
+}
+
+#numbered-card h1 {
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 17px;
+	padding-bottom: 16px;
+}
+
+#numbered-card p {
+	font-size: 15px;
+	max-width: 212px;
+	margin-left: 24px;
+	margin-right: 24px;
+	display: inline-block;
+}
+
+#design-process-step-line {
+	background-color: blue;
+	height: 5px;
+	width: 100%;
+	vertical-align: top;
+	margin-left: -24px;
+	margin-top: -14px;
 }
 
 #product-card {
@@ -959,6 +1009,29 @@ ol dd {
 	padding-top: 20px;
 	display: inline-block;
 }
+
+#characteristic-card {
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #222;	
+	min-height: 67px;
+	vertical-align: top;
+	margin-top: 12px;
+	display: inline-flex;
+	width: 20%;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 12px 34px 0 rgb(0 0 0 / 5%);
+	margin-right: 24px;
+	padding-right: 24px;
+	margin-bottom: 16px;
+	padding-left: 24px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+
 
 /*-- INICIO ELEMENTOS DE UI --*/
 
