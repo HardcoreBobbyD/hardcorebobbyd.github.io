@@ -41,6 +41,9 @@ nav {
   background-color: #fff;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
+  backdrop-filter: blur(8px);
+  background-color: rgba(250, 250, 250, 0.8);
+  border-bottom: 1px solid rgb(223, 227, 231);
 }
 
 #navbar {
