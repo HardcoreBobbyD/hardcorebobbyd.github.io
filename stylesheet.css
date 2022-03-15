@@ -336,6 +336,18 @@ footer h6 {
 	box-shadow: 0px 0px 22px 5px rgba(40,202,0,0.75);
 }
 
+#statusStatusOff {
+	width: 6px;
+	height: 6px;
+	background-color: #FF0B0C;
+	border-radius: 10px;
+	display: inline-block;
+	margin-left: 24px;
+	margin-right: 12px;
+	-webkit-box-shadow: 0px 0px 22px 5px rgba(255,11,12,0.55); 
+	box-shadow: 0px 0px 22px 5px rgba(255,11,12,0.55);
+}
+
 /* CSS Everything But Advertising */
 
 #descrip {
