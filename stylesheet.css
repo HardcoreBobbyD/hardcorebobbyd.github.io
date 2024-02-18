@@ -532,8 +532,26 @@ ol dd {
 	width: 100%;
 }
 
+.hero-pieza2 {
+  /*background-image: url(img/product/bg-hero-case.jpg);*/
+  background-size: cover;
+	background-image: linear-gradient(225deg, #5672C4 0%, #3352E4 100%);
+	padding-top: 20%;
+	padding-bottom: 1px;
+	width: 100%;
+}
+
 #subhero {
 	background-image: url(img/product/02-subheroes/sub-hero-case1@1x.jpg);
+	background-color: #F9FAFB;
+  background-size: cover;
+	height: 700px;
+	width: 100%;
+	vertical-align: middle;
+}
+
+#subhero-tipsteros {
+	background-image: url(img/product/02-subheroes/sub-hero-tipsteros@3x.jpg);
 	background-color: #F9FAFB;
   background-size: cover;
 	height: 700px;
@@ -554,6 +572,13 @@ ol dd {
 	margin-bottom: 28px;
 }
 
+#hero-screens-show-tipsteros {
+  background-image: linear-gradient(225deg, #3352E4 0%, #5672C4 100%);
+  background-size: cover;
+	padding-top: 128px;
+	padding-bottom: 1px;
+	width: 100%;
+}
 
 #welcome {
 	font-family: 'Inter', sans-serif;
@@ -874,7 +899,10 @@ ol dd {
 	width: 100%;
 }
 
-
+.container-showcase {
+	display: inline-block;
+	width: 90%;
+}
 
 .column {
   float: left;
@@ -890,6 +918,23 @@ ol dd {
 	border-width: 1px;
 	border-color: #ECECEC;
 	box-shadow: 0 12px 34px 0 rgb(0 0 0 / 5%);--*/
+}
+
+.column-description {
+  float: left;
+  width: 50%;
+  display: inline-block;
+}
+
+.column-description img {
+  width: 154px;
+}
+
+.center{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .left {
@@ -926,6 +971,13 @@ ol dd {
 	font-weight: 200;	
 	line-height: 28px;
 }
+
+.right-50 ul {
+	font-family: 'Inter', sans-serif;
+	font-weight: 200;	
+	line-height: 28px;
+}
+
 /*-- Table end --*/
 
 #discoveries-1 {
@@ -1064,6 +1116,24 @@ ol dd {
 }
 
 #exp-ui img {
+	justify-content: center;
+}
+
+#exp-ui-wrap {
+	background-color: #F3F5F7;
+	width: 100%;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	border-color: #ECECEC;
+	border-width: 4px;
+	border-style: solid;
+	border-radius: 40px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#exp-ui-wrap img {
 	justify-content: center;
 }
 
