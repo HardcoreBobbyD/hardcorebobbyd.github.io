@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 header {
 	margin-left: auto;
 	margin-left: auto;
