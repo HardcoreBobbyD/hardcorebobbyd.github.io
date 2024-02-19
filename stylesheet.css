@@ -595,6 +595,10 @@ ol dd {
   background-size: cover;
 	padding-top: 128px;
 	padding-bottom: 1px;
+}
+
+#full-width-image {
+  background-size: cover;
 	width: 100%;
 }
 
@@ -920,6 +924,7 @@ ol dd {
 .container-showcase {
 	display: inline-block;
 	width: 90%;
+
 }
 
 .column {
@@ -1124,7 +1129,9 @@ ol dd {
 #exp-ui {
 	background-color: #F3F5F7;
 	width: 100%;
-	height: 463px;
+	min-height: 463px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 	border-color: #ECECEC;
 	border-width: 4px;
 	border-style: solid;
