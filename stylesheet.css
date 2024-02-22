@@ -746,16 +746,6 @@ ol dd {
 	transition-duration: 0.5s;
 }
 
-#m-Container-case-1:hover {
-	filter: grayscale(100%);
-	cursor: not-allowed;
-}
-
-#m-Container-case-2:hover {
-	filter: grayscale(100%);
-	cursor: not-allowed;
-}
-
 /*-- Container 2 END --*/
 
 
@@ -773,11 +763,6 @@ ol dd {
 	display: table-caption;
 }
 
-#l-Container-case-1:hover {
-	filter: grayscale(100%);
-	cursor: not-allowed;
-}
-
 /*-- Container 3 END --*/
 
 /*-- Container 4 BEGINNING --*/
@@ -792,11 +777,6 @@ ol dd {
 	transition: all 0.3s ease-in-out;
 	margin-bottom: 56px;
 	display: table-caption;
-}
-
-#s-Container-case-1:hover {
-	filter: grayscale(100%);
-	cursor: not-allowed;
 }
 
 /*-- Container 4 END --*/
@@ -887,31 +867,15 @@ ol dd {
 	margin-bottom: 16px;
 }
 
-#xs-Container-case-1:hover {
-	filter: grayscale(100%);
-	cursor: not-allowed;
-}
-
-#xs-Container-case-2:hover {
-	filter: grayscale(100%);
-	cursor: not-allowed;
-}
-
-#xs-Container-case-3:hover {
-	filter: grayscale(100%);
-	cursor: not-allowed;
-}
-
-#xs-Container-case-4:hover {
-	filter: grayscale(100%);
-	cursor: not-allowed;
-}
-
 /*-- Container 5-XS END --*/
 
 
 #containerBG-image {
 	display: inline-flex;
+}
+
+.WIP {
+	filter: grayscale(100%);
 }
 
 
