@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Protected Site"
-AuthUserFile /Users/davidbustamante/Documents/01 GitHub/hardcorebobbyd.github.io/product/private/.htpasswd
+AuthUserFile /hardcorebobbyd.github.io/product/private/.htpasswd
 Require valid-user
