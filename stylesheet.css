@@ -1205,6 +1205,14 @@ ol dd {
 	line-height: 22px;
 }
 
+#thumbs-divider {
+	height: 1px;
+	width: 100%;
+	background-color: #ECEBEB;
+	margin-top: 72px;
+	margin-bottom: 72px;
+}
+
 #metric-thumnails {
 	width: 50px;
 	margin-bottom: 42px;
