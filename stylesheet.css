@@ -712,6 +712,19 @@ ol dd {
 	margin-bottom: 56px;
 }
 
+#xlContainer-case-shelf {
+	width: 100%;
+	background: url(img/product/01-home/shelf-home-img.jpg), linear-gradient(225deg, #3081D0 0%, #482F9B 100%);
+	background-size: cover;
+	height: 480px;
+	-webkit-box-shadow: 5px 5px 34px 11px rgba(0,0,0,0.18); 
+	box-shadow: 5px 5px 34px 11px rgba(0,0,0,0.18);
+	border-radius: 35px;
+	transition: all 0.3s ease-in-out;
+	margin-bottom: 56px;
+	display: inline-block;
+}
+
 
 /*-- Container 1 END --*/
 
