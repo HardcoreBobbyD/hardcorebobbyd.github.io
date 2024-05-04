@@ -330,8 +330,8 @@ footer h6 {
 
 #CTAbutton {
 	background-color: #0069ff;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 	padding-right: 32px;
 	color: #fff;
 	display: inline-block;
@@ -340,6 +340,16 @@ footer h6 {
 	vertical-align: middle;
 	min-width: 95%;
 	margin-right: 12px;
+}
+
+#CTAbutton:hover {
+	background-color: #5296F6;
+	color: #fff;
+	border-width: 2em;
+	border-color: #5296F6;
+	-webkit-box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.18); 
+	box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.18);
+	transition: all 0.5s ease-in-out;
 }
 
 #statusStatus {
