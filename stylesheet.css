@@ -332,14 +332,14 @@ footer h6 {
 	background-color: #0069ff;
 	padding-top: 16px;
 	padding-bottom: 16px;
-	padding-right: 32px;
-	color: #fff;
+	color: #66ccff;
 	display: inline-block;
 	border-radius: 8px;
 	font-weight: 500;
 	vertical-align: middle;
 	min-width: 95%;
 	margin-right: 12px;
+	text-align: center;
 }
 
 #CTAbutton:hover {
@@ -351,6 +351,7 @@ footer h6 {
 	box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.18);
 	transition: all 0.5s ease-in-out;
 }
+
 
 #statusStatus {
 	width: 6px;
