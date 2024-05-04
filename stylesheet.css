@@ -324,7 +324,21 @@ footer h6 {
 	border-radius: 8px;
 	font-weight: 600;
 	vertical-align: middle;
-	min-width: 130px;
+	min-width: 45%;
+	margin-right: 12px;
+}
+
+#CTAbutton {
+	background-color: #0069ff;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 32px;
+	color: #fff;
+	display: inline-block;
+	border-radius: 8px;
+	font-weight: 500;
+	vertical-align: middle;
+	min-width: 95%;
 	margin-right: 12px;
 }
 
