@@ -602,6 +602,15 @@ ol dd {
 	width: 100%;
 }
 
+.hero-pieza3 {
+  /*background-image: url(img/product/bg-hero-case.jpg);*/
+  background-size: cover;
+	background-image: linear-gradient(225deg, #00BF42 0%, #00CFCA 100%);
+	padding-top: 20%;
+	padding-bottom: 1px;
+	width: 100%;
+}
+
 .hero-shelf {
   background-size: cover;
 	background-image: linear-gradient(225deg, #E6A353 0%, #821822 100%);
@@ -637,6 +646,15 @@ ol dd {
 	vertical-align: middle;
 }
 
+#subhero-corpfolder {
+	background-image: url(img/product/02-subheroes/sub-hero-corpfolder@3x.jpg);
+	background-color: #F9FAFB;
+  background-size: cover;
+	height: 700px;
+	width: 100%;
+	vertical-align: middle;
+}
+
 #hero-screens-show {
   background-image: linear-gradient(225deg, #3081D0 0%, #482F9B 100%);
   background-size: cover;
@@ -662,6 +680,14 @@ ol dd {
   background-size: cover;
 	padding-top: 128px;
 	padding-bottom: 1px;
+}
+
+#hero-screens-show-corpfolder {
+  padding-bottom: 128px;
+  background-size: cover;
+	padding-top: 128px;
+	width: 100%;
+	background-color: #008B59;
 }
 
 #full-width-image {
@@ -1061,6 +1087,13 @@ ol dd {
 	max-width: 90%;
 }
 
+.left-50 ol {
+	font-family: 'Inter', sans-serif;
+	font-weight: 200;	
+	line-height: 28px;
+	max-width: 90%;
+}
+
 #bullet {
 	padding-left: 24px;
 }
@@ -1113,6 +1146,38 @@ ol dd {
 	margin-left: 24px;
 	margin-right: 24px;
 	display: inline-block;
+}
+
+#content-card {
+	display: inline-flex;
+	width: 350px;
+	background-color: #EDF5EF;
+	border-radius: 10px;
+	box-shadow: 0 12px 34px 0 rgb(0 0 0 / 5%);
+	margin-right: 16px;
+	margin-bottom: 16px;
+	padding-left: 24px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border: solid;
+	border-color: #CBDABF;
+	border-width: 3px;
+}
+
+#content-card p {
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 24px;
+	margin-right: 24px;
+	display: inline-block;
+}
+
+#content-card h1 {
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 17px;
+	margin-right: 24px;
 }
 
 #numbered-card {
