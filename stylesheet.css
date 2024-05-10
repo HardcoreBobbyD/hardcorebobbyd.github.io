@@ -1434,6 +1434,18 @@ ol dd {
 	padding-top: 31px;
 }
 
+#bg-screen-CF {
+	width: 1040px;
+	height: 594px;
+	background-image: url("img/product/case-corpfolder/CF-pimped-dashboard.svg");
+	background-size: 992px;
+	background-position: center;
+	background-color: #D9D9D9;
+	border-radius: 20px;
+	padding: 24px;
+	background-repeat: no-repeat;
+}
+
 
 /*-- FINAL ELEMENTOS DE UI --*/
 
