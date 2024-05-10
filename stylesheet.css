@@ -975,11 +975,6 @@ ol dd {
 }
 
 #xs-Container-case-2:hover {
-	opacity: .95;
-	-webkit-box-shadow: 5px 5px 28px 15px rgba(0,0,0,0.34); 
-	box-shadow: 5px 5px 28px 15px rgba(0,0,0,0.34);
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
 }
 
 #xs-Container-case-3 {
