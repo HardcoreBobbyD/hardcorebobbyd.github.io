@@ -1539,6 +1539,15 @@ margin-top: 128px;
 }
 
 
+/* Animaciones */
+
+#animacionChidita{
+	position: fixed;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  background: transparent;
+}
 
 /* Chosen THUMBNAIL */
 
