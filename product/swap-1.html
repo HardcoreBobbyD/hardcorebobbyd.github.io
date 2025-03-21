@@ -40,6 +40,10 @@
           a.appendChild(r);
       })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
   </script>
+
+  <!-- Bodymovin for Lottie animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
 
 <header>
@@ -903,13 +907,17 @@
         <div class="column left-50">
           <div id="exp-ui">
             
+            <!-- Animacion medalla PNG 
             <img src="../img/product/case-1/07-cast-UI.gif" style="max-width:450px;width:100%">
-            <!--<br>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.7/lottie.min.js" integrity="sha512-HDCfX3BneBQMfloBfluMQe6yio+OfXnbKAbI0SnfcZ4YfZL670nc52Aue1bBhgXa+QdWsBdhMVR2hYROljf+Fg==" crossorigin="anonymous"></script>
+            -->
+            
+            <!-- Animacion medalla JSON-->
+            <br>
+            <div id="animacionMedallita"></div>
             <script>
               var animation = bodymovin.loadAnimation({
               // animationData: { /* ... */ },
-              container: document.getElementById('animacionChidita'), // required
+              container: document.getElementById('animacionMedallita'), // required
               path: '../lottie/pruebapruebita.json', // required
               renderer: 'svg', // required
               loop: true, // optional
@@ -917,7 +925,7 @@
               name: "Medallita", // optional
               });
             </script>
-            <div id="animacionChidita"></div>-->
+            
             
           </div>
         </div>
